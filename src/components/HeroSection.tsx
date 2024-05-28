@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <main className="flex flex-col justify-center md:flex-row gap-16 h-[90vh] pb-16 items-center">
-      <section className="translate-y-12 -translate-x-3">
+    <main className="flex flex-col justify-center md:flex-row gap-16 h-[90vh] pb-16 items-center pt-28 ">
+      <section className="translate-y-12 hidden md:block  -translate-x-3">
         <div className="w-32 h-52 relative">
           <img
             src="/static/undraw_heart (1).svg"
@@ -20,12 +20,14 @@ const HeroSection = () => {
         <p className="font-extralight text-xs">View More</p>
       </section>
       <section className="">
-        <h1 className="text-7xl">
+        <h1 className="text-5xl md:text-7xl">
           Find your new <br /> best friend
         </h1>
         <p className="md:max-w-[30vw] pt-5 pb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          Animals share our planet, and their well-being is intricately linked
+          to ours. Unfortunately, animal cruelty remains a widespread issue,
+          causing immense suffering and posing a threat to public health and the
+          environment.{" "}
         </p>
         <button className="group relative inline-flex h-12 items-center justify-center rounded-full bg-prim-green  px-6 font-medium text-black">
           <span>Read more</span>
@@ -48,10 +50,10 @@ const HeroSection = () => {
           </div>
         </button>
       </section>
-      <section className="flex flex-col gap-5 -translate-y-8">
+      <section className="md:flex flex-col gap-5 -translate-y-8 hidden md:block ">
         <p className="w-52 text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore
-          nisi eligendi reprehenderit officiis ab!
+          In this blog, we'll explore the negative effects of animal cruelty and
+          how we can all be part of the solution.
         </p>
         <img src="/static/arched-arrow.svg" className="rotate-180 h-16" />
       </section>

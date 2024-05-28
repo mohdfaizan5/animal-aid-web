@@ -1,20 +1,22 @@
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import Section2 from '@/components/Section2'
-import {CardPulseBorder} from '@/components/OutlineShineContainer'
 import React from 'react'
 import Section3 from '@/components/Section3'
 import Faq from '@/components/Faq'
+import Footer from '@/components/Footer'
+import Donate from '@/components/Donate'
 
 const page = () => {
   return (
-    <div>
+    <div className='px-10'>
       <Navbar/>
       <HeroSection/>
-      {/* <CardPulseBorder/> */}
       <Section2/>
       <Section3/>
+      <Donate/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }
