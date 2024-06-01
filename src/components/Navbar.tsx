@@ -8,7 +8,11 @@ const Navbar = () => {
   return (
     <div className="flex px-10 items-center py-5 justify-between">
       <div className="text-xl font-semibold flex items-center">
-        <img src="/static/logo/logo-base-256x256.png" className="size-10"></img>
+        <img
+          alt="alternative text"
+          src="/static/logo/logo-base-256x256.png"
+          className="size-10"
+        ></img>
         AnimalAidWeb
       </div>
       <nav className="md:hidden">

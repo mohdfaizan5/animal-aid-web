@@ -35,11 +35,11 @@ const Section2 = () => {
           </div>
         </button>
       </section>
-      <img
+      <img alt='alternative text'
         src="/static/pexels-photo-1906153.jpeg"
         className="h-72 w-56 object-cover"
       />
-      <img
+      <img alt='alternative text'
         src="/static/WhatsApp Image 2024-05-28 at 13.51.25.jpeg"
         className="h-72 w-56 object-cover ml-3"
       />
